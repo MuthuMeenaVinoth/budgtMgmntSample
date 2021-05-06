@@ -8,8 +8,8 @@ const createUser = require('./controller/createUser.js');
 
 const AWS = require('aws-sdk');
 AWS.config.update ( {
-  accessKeyId: 'AKIATPBVG7YXA3HBAOHZ',
-  secretAccessKey: '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',
+  accessKeyId: '',
+  secretAccessKey: ',
   region: 'ap-south-1'
 });
 const dynamodb = new AWS.DynamoDB.DocumentClient();
